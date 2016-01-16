@@ -21,7 +21,6 @@
             <label for=conf_email>Confirmer Email*</label>
             <input id=conf_email name=conf_email value="<?php echo $mail ;?>" type=email onkeyup="compare(email,conf_email)" required>
           </li>
-
             <li>
             <label for=date_naissance>Date de Naissance*</label>
             <input id=date_naissance name=date_naissance value="<?php echo $date_naissance ;?>" type=date required>
@@ -96,6 +95,7 @@
                             $increment++;
                         }
                         }  ?>
+                
                 <li>
        <fieldset>
            
@@ -106,8 +106,7 @@
         </li>
                 
           </ol>
-          
-            <input>
+        
         </fieldset>
                  <button id=sub_inscr type=submit name=sub_inscr >valider</button>
                 

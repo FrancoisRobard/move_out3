@@ -16,7 +16,8 @@ catch(Exception $e)
 if(isset($_POST['sub_inscr']))
 	{
     //On vérifie qu'on a appuyé sur le bouton d'inscription
-
+        if($_POST['email'] == $_POST['conf_email'])
+        {
         $pseudo= $_POST['pseudo'];
         $nom= $_POST['nom'];
 	$sexe= $_POST['sexe'];
@@ -43,6 +44,10 @@ if(isset($_POST['sub_inscr']))
         $insert->bindParam(8, $sexe);
         $insert->bindParam(9, $ville);
         $insert->execute();
+        }
+			else{
+			echo"Votre adresse mail et votre adresse mail de confirmation ne correspondent pas, veuillez faire un retour en arriere et modifier vos informations";
+			}
         
         
 ?>
