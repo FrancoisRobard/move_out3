@@ -1,0 +1,60 @@
+.logo{
+    margin-top: 10px;
+    width:140px;
+    margin-left:7%;
+}
+
+.home{
+    padding-bottom: 6px;
+    margin-left:2em;
+    width:50px;
+}
+
+nav img{
+    width:55px;
+    margin-top: 9px;
+    margin-right: -15px;
+}
+
+.gauche{
+    float:left;
+}
+
+.gauche a{
+    padding-left:1em;
+    display: inline-block;
+}
+
+.droite{
+    float:right;
+}
+
+.droite a{
+    padding-right:1em;
+    margin-right: 1em;
+}
+
+nav li{
+    display:inline-block;
+    margin-top: 9px;
+}
+
+nav a{
+    color:white;
+    font-size:1.5em;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+nav{
+    //position:absolute;
+    display: inline-block;
+    width:100%;
+    background-color: rgb(40,40,40);
+}
+
+#back_office{
+    width:45px;
+    margin-right: 1em;
+    margin-top: 17px;
+}
